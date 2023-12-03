@@ -51,7 +51,7 @@ def create_layout(app: Dash, data: pd.DataFrame ) -> html.Div:
                     html.Div(
                         className="bar-charts-container",
                         children=[
-                            # line_chart_keyword.render(app,data),
+                            line_chart_keyword.render(app,data),
                            
                             
 
